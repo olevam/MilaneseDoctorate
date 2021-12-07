@@ -164,6 +164,6 @@ def doSomething1(monastery, origin, lead_loc, leader):
         '''
     dc.cur.execute(query, [monastery, origin, leader, origin, leader])
     lead_loc.append(dc.cur.fetchall())
-loc_leader_time(3, 'Margherita')
+loc_leader_time(1, 'Margherita')
 
       
